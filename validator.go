@@ -30,7 +30,7 @@ var (
 	paramsRegexp            = regexp.MustCompile(`\(.*\)$`)
 )
 
-const maxURLRuneCount = 2083
+const maxURLRuneCount = 4096
 const minURLRuneCount = 3
 const rfc3339WithoutZone = "2006-01-02T15:04:05"
 
